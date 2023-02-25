@@ -356,8 +356,74 @@ width: 45%;
     font-size: 20px;
 }
 
+/* *****************tech tolls ***************/
+
+#tech-1{
+    margin: auto;
+    text-align: center;
+   
+}
+#tech-1>h1{
+    font-size: 36px;
+    padding: 60px;
+    color: white;
+}
+#tech-1>h1>span{
+    color: crimson;
+}
 
 
+
+
+
+
+.techC{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    margin: auto; 
+}
+
+.techC>.techC-s>div>img{
+    width:100%;
+   /* background-color: white; */
+}
+
+.techC>.techC-s>div>img{
+    width: 100%;
+    height: 150px;
+   /* background-color; */
+}
+
+
+.techC>.techC-s{
+    /* border: 1px solid crimson; */
+    padding: 20px 20px;
+    background-color:#03a9f4;
+}
+
+
+/* this is secound layer round all image */
+.techC>.techC-s>div{
+    box-shadow: black 0px 7px 29px 0px;
+    padding: 10px 50px;
+    background-color: white;
+}
+
+
+/* all name part */
+.techC>.techC-s>div>p{
+    font-family: 'Poppins',sans-serif;
+    /* background: #111; */
+    color:black;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* ****************************************************************** */
 
 /* project styling*/
 #projects-1{
